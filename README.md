@@ -7,11 +7,13 @@ TimberVision is a dataset and framework for tree-trunk detection and tracking ba
 
 ## Setup
 
-To run any source code, clone this repository and create a conda environment using [requirements.txt](./requirements.txt).
+To run any source code, clone this repository and create a conda environment using [requirements.txt](./requirements.txt).\
+Replace the CPU version of torch with the GPU version of the required versions
 
     conda create -n timbervision python=3.11
     conda activate timbervision
     pip install -r requirements.txt
+    pip install torch==2.3.0 torchvision==0.18.0 torcaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 
 ## Usage
 
