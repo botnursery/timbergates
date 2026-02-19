@@ -1,8 +1,8 @@
-# TimberVision
+# TimberGates
 
 ![timbervision_results.png](./figures/timbervision_results.png "timbervision_results.png")
 
-TimberVision is a dataset and framework for tree-trunk detection and tracking based on RGB images. It combines the advantages of oriented object detection and instance segmentation for optimizing robustness and efficiency, as described in the corresponding [paper](https://arxiv.org/pdf/2501.07360v1) and [poster](./figures/timbervision_poster.pdf) presented at WACV 2025. This repository contains source code, models, configuration files and documentation. Images and annotations of the TimberVision dataset are available [here](https://zenodo.org/records/14825846).
+TimberGates the fork of TimberVision is a dataset and framework for tree-trunk detection and tracking based on RGB images with additional training of the model to detect gates and navigate through them. This repository contains source code, models, configuration files and documentation.
 
 
 ## Setup
