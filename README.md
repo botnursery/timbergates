@@ -5,6 +5,12 @@
 TimberGates the fork of TimberVision is a dataset and framework for tree-trunk detection and tracking based on RGB images with additional training of the model to detect gates and navigate through them. This repository contains source code, models, configuration files and documentation.
 
 
+## Run
+
+To run TimberGates model, enter the script to watch a video of navigation through the gates with output of control values Throttle, Roll, Pitch, Yaw in terminal.
+    
+    python pnp_drone_control.py
+    
 ## Setup
 
 To run any source code, clone this repository and create a conda environment using [requirements.txt](./requirements.txt).\
